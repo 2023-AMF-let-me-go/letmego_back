@@ -1,0 +1,42 @@
+# Compiled class file
+*.class
+
+# Log files
+log/
+*.log
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Maven files
+target/
+
+# Gradle files
+.gradle/
+build/
+
+# Spring Boot files
+/bin/
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Docker files
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.ci.yml
+Dockerfile
+dockerfiles/
+
+# Kubernetes files
+*.yaml
+*.yml
+!kustomization.yaml
+!kustomize.yml
